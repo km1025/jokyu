@@ -11,40 +11,38 @@ header{
   position: relative;
 }
 
+.box{
+  position: relative;
+  background-color: #fff;
+}
+
 .purple-box1{
   margin-left: 180px;
-  padding: 10px; background-color:#ffffff;
-  color: #a9004b;
+  background-color: #a9004b;
   width: 40px;
   height: 40px;
   float: left;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  position: absolute; top: 20px; left: 20px;
+  border: 10px solid #ffffff;
 }
 
 .purple-box2{
   margin-left: 230px;
-  padding: 10px; background-color:#ffffff;
-  width: 40px;
-  height: 40px;
-  color: #a9004b;
+  background-color: #a9004b;
+  width: 40px;height: 40px;
   float: center;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  position: absolute; top: 20px; left: 20px;
+  border: 10px solid #ffffff;
 }
 
 .purple-box3{
+  background-color: #a9004b;
   width: 40px;
   height: 40px;
-  background-color: #a9004b;
   float: light;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  position: absolute; top: 20px; left: 20px;
   margin-left: 280px;
-  padding: 10px; background-color:#ffffff;
+  border: 10px solid #ffffff;
 }
 
 .clearfix::after{
