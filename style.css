@@ -8,40 +8,42 @@ header{
   width: 400px;
   height: 100px;
   background-color: #ff0000;
-  position: relative;
+  overflow: hidden;
 }
 
 .box{
-  position: relative;
   background-color: #fff;
+  position: relative;
+  margin: 20px;
 }
 
 .purple-box1{
+  position: absolute;
   margin-left: 180px;
   background-color: #a9004b;
-  width: 40px;
-  height: 40px;
+  width: 40px; height: 40px;
   float: left;
-  position: absolute; top: 20px; left: 20px;
+  padding:20px,20px;
   border: 10px solid #ffffff;
 }
 
 .purple-box2{
+  position: absolute;
   margin-left: 230px;
   background-color: #a9004b;
   width: 40px;height: 40px;
   float: center;
-  position: absolute; top: 20px; left: 20px;
+  padding:20px,20px;
   border: 10px solid #ffffff;
 }
 
 .purple-box3{
+  position: absolute;
   background-color: #a9004b;
-  width: 40px;
-  height: 40px;
+  width: 40px;height: 40px;
   float: light;
-  position: absolute; top: 20px; left: 20px;
   margin-left: 280px;
+  padding:20px,20px;
   border: 10px solid #ffffff;
 }
 
@@ -62,44 +64,45 @@ header{
   float: left;
   width: 250px;
   height: 250px;
-  margin: 0;
   background-color: #8c2727;
-}
-
-.beside-topclearfix::after{
-  content: "";
-  display: block;
-  clear: both;
+  position: relative;
 }
 
 .beside-left{
-  float: right;
+  float: left;
   width: 250px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin:auto;
 }
-
 
 .orange-box1{
   width: 140px;
   height: 40px;
   background-color: #ff863f;
-  margin: 40px 40px 5px 40px;
+  margin-top: 40px;
+  margin-left: 40px;
   border: 5px solid #ffffff;
 }
 
 .orange-box2{
-  margin: 5px 40px 5px 40px;
   width: 140px;
   height: 40px;
   background-color: #ff863f;
   border: 5px solid #ffffff;
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 .orange-box3{
-  margin: 5px 40px 40px 40px;
   width: 140px;
   height: 40px;
   background-color: #ff863f;
   border: 5px solid #ffffff;
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 .footer{
