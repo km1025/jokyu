@@ -19,34 +19,38 @@ header{
   padding: 0;
 }
 
+.purple:last-child{
+  margin: 0;
+}
+
 .purple-box1{
-  background-color: #a9004b;
   position: absolute;
   margin-left: 180px;
-  width: 40px; height: 40px;
   float: left;
-  padding:10px,0px,10px,0px;
+  background-color: #a9004b;
+  width: 40px;height: 40px;
   border: 10px solid #ffffff;
+  padding:10px,0px,10px,0px;
 }
 
 .purple-box2{
-  background-color: #a9004b;
   position: absolute;
   margin-left: 230px;
-  width: 40px;height: 40px;
   float: center;
-  padding:10px,0px,10px,0px;
+  background-color: #a9004b;
+  width: 40px;height: 40px;
   border: 10px solid #ffffff;
+  padding:10px,0px,10px,0px;
 }
 
 .purple-box3{
-  background-color: #a9004b;
   position: absolute;
-  width: 40px;height: 40px;
   float: right;
   margin-left: 280px;
-  padding:10px,0px,10px,0px;
+  background-color: #a9004b;
+  width: 40px;height: 40px;
   border: 10px solid #ffffff;
+  padding:10px,0px,10px,0px;
 }
 
 .clearfix::after{
@@ -79,6 +83,9 @@ header{
   margin:auto;
 }
 
+.orange{
+  
+}
 .orange-box1{
   width: 140px;
   height: 40px;
