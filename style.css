@@ -19,12 +19,15 @@ header{
   padding: 0;
 }
 
-.purple:last-child{
+.purpl:first-child{
   margin: 0;
 }
 
-.purple-box1{
+.purple{
   position: absolute;
+}
+
+.purple-box1{
   margin-left: 180px;
   float: left;
   background-color: #a9004b;
@@ -34,7 +37,6 @@ header{
 }
 
 .purple-box2{
-  position: absolute;
   margin-left: 230px;
   float: center;
   background-color: #a9004b;
@@ -44,7 +46,6 @@ header{
 }
 
 .purple-box3{
-  position: absolute;
   float: right;
   margin-left: 280px;
   background-color: #a9004b;
