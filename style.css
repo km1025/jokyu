@@ -54,10 +54,8 @@ header{
 .beside-left{
   float: left;
   position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 40px;
+  margin-left: 40px;
+  padding-top: 40px;
 }
 
 .orange-box{
@@ -65,9 +63,7 @@ header{
   height: 40px;
   background-color: #ff863f;
   border: 5px solid #ffffff;
-  margin-top: 10px;
-  margin-bottom: 5px;
-
+  margin-bottom: 10px;
 }
 
 .orange-box:last-child{
