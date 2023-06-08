@@ -57,34 +57,21 @@ header{
   top: 0%;
   left: 50%;
   transform: translateX(-50%);
-  margin:auto;
-}
-
-.orange-box1{
-  width: 140px;
-  height: 40px;
-  background-color: #ff863f;
-  border: 5px solid #ffffff;
   margin-top: 40px;
-  margin-bottom: 5px;
 }
 
-.orange-box2{
+.orange-box{
   width: 140px;
   height: 40px;
   background-color: #ff863f;
   border: 5px solid #ffffff;
   margin-top: 10px;
   margin-bottom: 5px;
+
 }
 
-.orange-box3{
-  width: 140px;
-  height: 40px;
-  background-color: #ff863f;
-  border: 5px solid #ffffff;
-  margin-top: 10px;
-  margin-bottom:5px;
+.orange-box:last-child{
+  margin-bottom: 0px;
 }
 
 .footer{
